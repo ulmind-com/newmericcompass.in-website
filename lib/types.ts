@@ -9,7 +9,8 @@ export interface Service {
   shortDescription: string;
   description: string[];
   highlights?: string[];
-  /** Absolute URL to a hosted image. Leave undefined until a real image is supplied. */
+  /** Path under public/, e.g. "/images/vedic-kundali.jpg". An absolute https URL
+   *  also works. Leave undefined to fall back to a styled placeholder. */
   image?: string;
   featured?: boolean;
   active: boolean;

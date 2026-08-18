@@ -20,10 +20,9 @@ export const sevaIntro = {
 
 export const sevaBlocks: SevaBlock[] = [
   {
-    image:
-      "https://res.cloudinary.com/hfxiadax/image/upload/v1783781593/Screenshot_20260711_141034_Facebook.jpg_1_npeyjx.jpg",
-    imageWidth: 4320,
-    imageHeight: 2172,
+    image: "/images/seva-1-param-dharma.jpg",
+    imageWidth: 1400,
+    imageHeight: 704,
     heading: "Seva Hi Param Dharma",
     paragraphs: [
       "Bhagwan ne hume bina maange bahut kuch diya hai—jeevan, parivaar, sukh, avsar aur ashirwad. Ab hamari baari hai... sirf maangne ki nahi, balki lautane ki.",
@@ -34,10 +33,9 @@ export const sevaBlocks: SevaBlock[] = [
     closing: "Seva Hi Param Dharma. Jay Jay Shree RadheShyam..!",
   },
   {
-    image:
-      "https://res.cloudinary.com/hfxiadax/image/upload/v1783781584/1000267977.jpg_nj8mfy.jpg",
-    imageWidth: 3060,
-    imageHeight: 3252,
+    image: "/images/seva-2-gurudev.jpg",
+    imageWidth: 1400,
+    imageHeight: 1488,
     heading: "Jay Gurudev, Jay Radheshyam",
     paragraphs: [
       "Every life has a purpose. Guru aur Govind ki kripa se hume bhi ek pavitra jeevan uddeshya mila hai — Seva, Sanskar aur Dharm ko samaj tak pahunchana.",
@@ -46,8 +44,7 @@ export const sevaBlocks: SevaBlock[] = [
     closing: "Jay Jay Shree RadheShyam",
   },
   {
-    image:
-      "https://res.cloudinary.com/hfxiadax/image/upload/v1783781575/FB_IMG_1783758751544.jpg_zy83lb.jpg",
+    image: "/images/seva-3-mahamantra.jpg",
     imageWidth: 1080,
     imageHeight: 836,
     heading: "हरे कृष्ण महामंत्र अखंड नाम जाप सेवा",
@@ -67,10 +64,9 @@ export const sevaBlocks: SevaBlock[] = [
     closing: "Hare Krishna!",
   },
   {
-    image:
-      "https://res.cloudinary.com/hfxiadax/image/upload/v1783781814/ChatGPT_Image_Jul_11_2026_01_26_02_PM_ciscwc.png",
-    imageWidth: 1536,
-    imageHeight: 1024,
+    image: "/images/seva-4-ramdhenu-mandir.jpg",
+    imageWidth: 1400,
+    imageHeight: 933,
     heading: "Ramdhenu Mandir Jirnodhaar & Seva Samiti",
     paragraphs: [
       "Humara ek hi sankalp hai — \"Dharm Rakshati Rakshitah.\"",
@@ -79,8 +75,7 @@ export const sevaBlocks: SevaBlock[] = [
     ],
   },
   {
-    image:
-      "https://res.cloudinary.com/hfxiadax/image/upload/v1783781754/ChatGPT_Image_Jul_11_2026_12_40_31_PM_ndr9dr.png",
+    image: "/images/seva-5-hanuman.jpg",
     imageWidth: 1024,
     imageHeight: 1438,
     heading: "Jai Shri Ram!",

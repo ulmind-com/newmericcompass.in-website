@@ -5,9 +5,11 @@ import type { Service } from "@/lib/types";
  * which will hold physical/report items added later).
  *
  * To add a new service: copy an existing object, give it a unique `slug`
- * (used in the URL /services/[slug]), and fill in the fields. Leave `image`
- * unset until you have a hosted URL for it — cards fall back to a styled
- * placeholder automatically.
+ * (used in the URL /services/[slug]), and fill in the fields.
+ *
+ * Images live in `public/images/`. Drop the file there, then reference it as
+ * `/images/your-file.jpg`. Leave `image` unset and the card falls back to a
+ * styled placeholder automatically.
  */
 export const services: Service[] = [
   {
@@ -15,7 +17,7 @@ export const services: Service[] = [
     name: "Vedic Kundali",
     pillar: "numerology",
     price: 2100,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778091/SAVE_20260711_112448_ogfsat.jpg",
+    image: "/images/vedic-kundali.jpg",
     tagline: "विजयी भवतु सर्वत्र सर्वदा — May You Be Victorious Everywhere, Always",
     shortDescription:
       "A personalized Vedic numerology report identifying your Mulank & Bhagyank, life factors, and Mahadasha/Antardasha analysis.",
@@ -37,7 +39,7 @@ export const services: Service[] = [
     name: "Baby Name Suggest",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778095/SAVE_20260711_112714_dnzhpu.jpg",
+    image: "/images/baby-name-suggest.jpg",
     tagline: "A Perfect Name, A Perfect Future",
     shortDescription:
       "Newborn naming based on Vedic Numerology — a name chosen to bring success, health and happiness to your child's life.",
@@ -59,7 +61,7 @@ export const services: Service[] = [
     name: "Name Correction",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783922542/file_00000000e570720bb21850a1aa253739_sfknaz.png",
+    image: "/images/name-correction.jpg",
     tagline: "Realign Your Name, Realign Your Path",
     shortDescription:
       "Numerological correction of an existing name — for children or adults — to bring it into alignment with success, health, and happiness.",
@@ -80,7 +82,7 @@ export const services: Service[] = [
     name: "Vastu Consultation — 16 Zones Analysis Report",
     pillar: "vastu",
     price: 1110,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778081/SAVE_20260711_112842_ihv9qg.jpg",
+    image: "/images/vastu-consultation.jpg",
     tagline: "विजयी भवतु सर्वत्र सर्वदा — May You Be Victorious Everywhere, Always",
     shortDescription:
       "A complete 16-zone Vastu analysis of your home, office, or commercial space — energy flow, directional strength, and practical remedies.",
@@ -104,7 +106,7 @@ export const services: Service[] = [
     name: "Compatibility Numerology",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778096/SAVE_20260711_113411_efxgzl.jpg",
+    image: "/images/compatibility-numerology.jpg",
     tagline: "Discover the Harmony. Strengthen the Connection. Build a Better Tomorrow.",
     shortDescription:
       "Numerical compatibility analysis for friendships, marriage, or business partnerships — numbers don't lie, they reveal the truth.",
@@ -125,7 +127,7 @@ export const services: Service[] = [
     name: "Career Numerology",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778071/SAVE_20260711_122329_arvdz6.jpg",
+    image: "/images/career-numerology.jpg",
     tagline: "Right Numbers. Right Direction. Right Future.",
     shortDescription:
       "Discover your ideal career path through your Date of Birth and Name Numbers — guidance for students, professionals, and anyone facing a career crossroads.",
@@ -146,7 +148,7 @@ export const services: Service[] = [
     name: "Mobile Numerology",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783923326/SAVE_20260713_114423_hpjbih.jpg",
+    image: "/images/mobile-numerology.jpg",
     shortDescription:
       "Phone number analysis affecting health, relationships, career & money growth.",
     description: [
@@ -161,7 +163,7 @@ export const services: Service[] = [
     name: "Business Logo Numerology",
     pillar: "numerology",
     price: 1005,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783867849/SAVE_20260712_201906_bnwkd4.jpg",
+    image: "/images/business-logo-numerology.jpg",
     tagline: "Right Name. Right Number. Right Logo. Right Direction.",
     shortDescription:
       "Business Name, Logo, and Brand Vibration Numerology — align your brand's identity with energy that customers feel before they even read a word.",

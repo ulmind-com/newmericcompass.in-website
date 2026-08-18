@@ -19,7 +19,7 @@ import type { Product } from "@/lib/types";
  *     "Second paragraph, if needed.",
  *   ],
  *   highlights: ["Optional bullet point", "Another bullet point"], // optional
- *   image: "https://your-image-host.com/product.jpg", // hosted image URL
+ *   image: "/images/product-name.jpg",   // put the file in public/images/ first
  *   active: true,                        // set false to hide without deleting
  * }
  */
@@ -28,7 +28,7 @@ export const products: Product[] = [
     slug: "prachin-narmadeshwar-shivling",
     name: "Prachin Narmadeshwar Shivling",
     // No fixed price — customers are asked to connect on WhatsApp for details & pricing.
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778091/SAVE_20260711_122616_xbihej.jpg",
+    image: "/images/narmadeshwar-shivling.jpg",
     tagline: "सैकड़ों वर्षों की ऊर्जा और सात्विक शक्ति का प्रतीक",
     shortDescription:
       "A rare, 100% natural Narmadeshwar Shivling sourced from the sacred banks of the Narmada — a symbol of centuries of energy and sattvic power.",

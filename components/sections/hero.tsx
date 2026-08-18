@@ -4,8 +4,7 @@ import { ButtonLink } from "@/components/site/button-link";
 import { buildWhatsAppLink } from "@/lib/whatsapp";
 import { siteConfig } from "@/lib/data/site";
 
-const HERO_BANNER =
-  "https://res.cloudinary.com/hfxiadax/image/upload/v1783841465/SAVE_20260712_125931_t3kisz.jpg";
+const HERO_BANNER = "/images/hero-banner.jpg";
 
 export function Hero() {
   return (
@@ -14,8 +13,8 @@ export function Hero() {
         <Image
           src={HERO_BANNER}
           alt={`${siteConfig.founder} — ${siteConfig.founderTitles.join(" & ")}`}
-          width={1942}
-          height={809}
+          width={1920}
+          height={800}
           priority
           className="h-auto w-full"
         />

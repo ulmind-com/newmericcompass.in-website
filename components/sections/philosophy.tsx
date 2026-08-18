@@ -11,8 +11,7 @@ import {
 
 const icons = [Leaf, ScrollText, ShieldOff, BrainCircuit, Wallet, Sparkles];
 
-const NATURE_ENERGY_IMAGE =
-  "https://res.cloudinary.com/hfxiadax/image/upload/v1783867304/IMG-20260712-WA0006_xtpage.jpg";
+const NATURE_ENERGY_IMAGE = "/images/nature-energy.jpg";
 
 export function Philosophy() {
   return (
