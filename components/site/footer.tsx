@@ -95,7 +95,7 @@ export function Footer() {
               © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <Link href="/contact" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
+              <Link href="/privacy" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
                 Privacy Policy
               </Link>
               <Link href="/contact" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
