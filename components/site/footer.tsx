@@ -94,12 +94,18 @@ export function Footer() {
             <p className="text-sm text-primary-foreground/80">
               © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
             </p>
-            <div className="flex gap-6">
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
               <Link href="/privacy" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
                 Privacy Policy
               </Link>
-              <Link href="/contact" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
+              <Link href="/terms" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
                 Terms of Service
+              </Link>
+              <Link href="/refund" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
+                Refund &amp; Cancellation
+              </Link>
+              <Link href="/contact" className="text-sm text-primary-foreground/80 transition-colors duration-200 hover:text-primary-foreground">
+                Contact
               </Link>
             </div>
           </div>
