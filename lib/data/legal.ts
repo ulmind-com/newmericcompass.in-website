@@ -13,7 +13,7 @@ import type { PolicyBlock } from "@/lib/data/privacy";
 import { siteConfig } from "@/lib/data/site";
 
 /** Shown under each title; keep in step with the date of the last edit. */
-export const LEGAL_UPDATED = "17 September 2026";
+export const LEGAL_UPDATED = "18 September 2026";
 
 const CONTACT_ROWS: PolicyBlock = {
   t: "contact",
@@ -33,6 +33,7 @@ export const TERMS: PolicyBlock[] = [
     "A compass and pada readout, free to use without an account.",
     "Reading sections covering Vastu essentials, colour alignment, day-wise remedies and related material.",
     "Paid sections — such as the 16 Zone Analysis, the 7D Nexus and the Integrated Vastu Space & Environment Analysis — which open for a fixed period once purchased.",
+    "Ask Newmeric AI, an assistant that answers Vastu questions from Acharya Pannkaj Kabiraj’s teachings, included in the Complete Vastu Access package.",
     "Placement submissions, where you send photographs and a compass bearing for review, subject to the quota on your plan.",
   ] },
 
@@ -40,6 +41,8 @@ export const TERMS: PolicyBlock[] = [
   { t: "callout", text: "The readings in the app are traditional Vastu guidance. They are not architectural, structural, engineering, medical, legal or financial advice." },
   { t: "p", text: "Nothing in the app should be treated as a substitute for a qualified professional. Do not make structural changes to a building, or decisions about your health or finances, on the basis of the app alone. You remain responsible for what you choose to do with the guidance." },
   { t: "p", text: "A compass reading depends on your device's magnetometer and on its surroundings. Metal, electronics and magnetic interference can shift a bearing. Calibrate your device and take a reading away from such sources." },
+  { t: "sub", text: "Ask Newmeric AI" },
+  { t: "p", text: "Answers from Ask Newmeric AI are written by an AI system, drawing only on Acharya Pannkaj Kabiraj’s teachings as they appear in the app, and each answer shows the teachings it drew on. An AI can still misread a question or summarise imperfectly, so treat its answers as a guide to those teachings rather than a replacement for them, and check the sources it shows. It answers Vastu questions only, and it is not a personal consultation with the Acharya." },
 
   { t: "h", text: "3. Your account" },
   { t: "p", text: "You are responsible for keeping your login details private and for everything done through your account. Give us accurate details when you register — a purchase is tied to the email address on the account that made it." },

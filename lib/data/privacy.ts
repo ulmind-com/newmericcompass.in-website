@@ -18,7 +18,7 @@ export type PolicyBlock =
   | { t: "byline"; text: string };
 
 /** Shown under the title; keep in step with the date of the last edit. */
-export const PRIVACY_UPDATED = "19 August 2026";
+export const PRIVACY_UPDATED = "18 September 2026";
 
 export const PRIVACY: PolicyBlock[] = [
   { t: "p", text: "Newmeric Compass is a Vastu compass and analysis app. This policy explains what the app collects, why it collects it, who else sees it, and what you can ask us to do about it." },
@@ -44,6 +44,10 @@ export const PRIVACY: PolicyBlock[] = [
   { t: "sub", text: "Your device" },
   { t: "p", text: "A notification token, so we can send you the daily tip. It is tied to the installation, not to you, and your email is stored beside it only when you are signed in." },
 
+  { t: "sub", text: "Ask Newmeric AI" },
+  { t: "p", text: "When you use Ask Newmeric AI, your question is sent to our server and passed to the AI services named in section 4 to be understood and answered. So that it can follow a conversation, your last few questions and its answers go with it. Your name and email are not sent to those services." },
+  { t: "p", text: "The conversation itself is kept only on your phone, and “New chat” clears it. We do not store your conversations on our servers, though the opening words of a question may appear for a short time in our service logs while we look into a problem. Please do not put personal details in your questions." },
+
   { t: "sub", text: "Payments" },
   { t: "p", text: "Payments are handled by Razorpay. Your card, UPI or bank details are entered on Razorpay’s own screen and never pass through this app or our servers. What we receive and store is the order reference, the payment reference and the plan you bought, so we know what you are entitled to." },
 
@@ -60,6 +64,7 @@ export const PRIVACY: PolicyBlock[] = [
     "To give you the analysis, remedies and readings the app is for.",
     "To keep your account, your submissions and your purchases available to you across sign-ins.",
     "To send the daily tip, if you have allowed notifications.",
+    "To answer the questions you ask Ask Newmeric AI.",
     "To answer you when you contact us, and to investigate a problem you report.",
     "To keep the service working and secure.",
   ] },
@@ -72,6 +77,8 @@ export const PRIVACY: PolicyBlock[] = [
     { label: "Expo", text: "Routes each notification from our server to your device." },
     { label: "Cloudinary", text: "Stores the photographs you submit." },
     { label: "Razorpay", text: "Takes the payment. They, not we, hold your payment details." },
+    { label: "Groq", text: "Runs the AI that reads your question and writes the answer. It receives your question, the recent conversation and the relevant parts of Acharya Pannkaj Kabiraj’s teachings — not your name or email." },
+    { label: "Google (Gemini API)", text: "Turns a question into a form that can be matched against the teachings. It receives the question text only." },
     { label: "MongoDB Atlas and Render", text: "Host the database and the server the app talks to." },
   ] },
   { t: "p", text: "We may also disclose information where the law requires it, or to establish or defend a legal claim." },
