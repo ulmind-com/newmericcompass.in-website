@@ -4,8 +4,8 @@ export const siteConfig = {
   founderTitles: ["Certified Numerologist", "Vastu Aacharya"],
   /** Set once a hosted URL for the founder photo is available. */
   founderImage: "/images/founder.jpg",
-  /** Set once a hosted URL for the site logo is available. */
-  logoImage: "/images/logo.jpg",
+  /** The Shri emblem the app and the store listing carry. */
+  logoImage: "/images/brand-mark.png",
   tagline: "Numbers Reveal. I Guide. You Achieve.",
   heroTagline: "Vastu solutions for Growth, Peace, and Prosperity",
   phone: "+91-9531199355",
