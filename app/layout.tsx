@@ -3,6 +3,7 @@ import { Playfair_Display, Inter, Hind } from "next/font/google";
 import { LanguageProvider } from "@/components/site/language-provider";
 import { Header } from "@/components/site/header";
 import { Footer } from "@/components/site/footer";
+import { AppInstallPopup } from "@/components/site/app-install-popup";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -55,6 +56,7 @@ export default function RootLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <AppInstallPopup />
         </LanguageProvider>
       </body>
     </html>
