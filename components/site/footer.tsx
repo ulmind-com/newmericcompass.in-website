@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Mail, Phone, MapPin, Award, Shield } from "lucide-react";
 import { Logo } from "@/components/site/logo";
 import { FacebookIcon } from "@/components/site/icons";
+import { PlayStoreBadge } from "@/components/site/play-store-badge";
 import { Bilingual } from "@/components/site/bilingual-text";
 import { missionStatement, missionTagline } from "@/lib/data/mission";
 import { navLinks, siteConfig } from "@/lib/data/site";
@@ -85,6 +86,16 @@ export function Footer() {
             <div className="mt-6">
               <span className="text-sm font-medium">Founder</span>
               <p className="mt-1 text-sm text-primary-foreground/90">{siteConfig.founder}</p>
+            </div>
+
+            {/* The app, where a reader who has scrolled this far can take it
+                with them. */}
+            <div className="mt-6">
+              <span className="text-sm font-medium">Get the app</span>
+              <p className="mt-1 text-sm text-primary-foreground/80">
+                {siteConfig.app.name} — the N5 compass on your phone.
+              </p>
+              <PlayStoreBadge className="mt-3" />
             </div>
           </div>
         </div>

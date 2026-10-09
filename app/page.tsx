@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/hero";
 import { StatsBar } from "@/components/sections/stats-bar";
 import { Pillars } from "@/components/sections/pillars";
+import { GetTheApp } from "@/components/sections/get-the-app";
 import { Philosophy } from "@/components/sections/philosophy";
 import { FeaturedServices } from "@/components/sections/featured-services";
 import { Seva } from "@/components/sections/seva";
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <StatsBar />
       <Pillars />
+      <GetTheApp />
       <Philosophy />
       <FeaturedServices />
       <Seva />

@@ -15,6 +15,12 @@ export const siteConfig = {
     line1: "Bokajan, Karbi-Anglong",
     line2: "Assam-782480, India",
   },
+  /** The Android app this site also offers. */
+  app: {
+    name: "Newmeric Compass",
+    androidPackage: "com.ulmind.newmericcompass",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ulmind.newmericcompass",
+  },
   social: {
     facebook: "https://facebook.com/pannkaj.kabiraj",
     googleBusiness: "https://share.google/ssQvF4zP931RzN5e4",
